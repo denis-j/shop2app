@@ -41,7 +41,13 @@ npm run web
 
 ## Project Structure
 
-- `App.tsx` - Main application component (TypeScript)
+- `App.tsx` - Main application entry point
+- `src/`
+  - `screens/` - Screen components
+    - `HomeScreen.tsx` - Home screen
+  - `components/` - Reusable UI components
+    - `Header.tsx` - Header component
+    - `WelcomeCard.tsx` - Welcome card component
 - `app.json` - Expo configuration (new architecture enabled here)
 - `tsconfig.json` - TypeScript configuration
 - `assets/` - Image assets (icons, splash screen)
