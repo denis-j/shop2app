@@ -1,8 +1,8 @@
-# React Native Expo Project with New Architecture
+# React Native Expo Project with New Architecture + TypeScript
 
-This is a React Native Expo project with the **new architecture** enabled, including:
-- ✅ Fabric (new rendering system)
-- ✅ TurboModules (new native modules system)
+This is a React Native Expo project with:
+- ✅ **TypeScript** support
+- ✅ **New Architecture** enabled (Fabric + TurboModules)
 - ✅ Codegen
 
 ## Project Setup
@@ -41,8 +41,9 @@ npm run web
 
 ## Project Structure
 
-- `App.js` - Main application component
+- `App.tsx` - Main application component (TypeScript)
 - `app.json` - Expo configuration (new architecture enabled here)
+- `tsconfig.json` - TypeScript configuration
 - `assets/` - Image assets (icons, splash screen)
 - `package.json` - Project dependencies
 
@@ -51,6 +52,7 @@ npm run web
 - **Expo SDK**: ~54.0.13
 - **React**: 19.1.0
 - **React Native**: 0.81.4
+- **TypeScript**: ^5.9.3
 
 ## Notes
 
